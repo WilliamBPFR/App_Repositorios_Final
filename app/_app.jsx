@@ -1,6 +1,10 @@
 import Head from 'next/head';
+import dotenv from 'dotenv';
+
+
 
 function MyApp({ Component, pageProps }) {
+  dotenv.config();
     return (
       <>
         <Head>
